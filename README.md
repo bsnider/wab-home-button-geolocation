@@ -10,7 +10,7 @@ This Web AppBuilder for ArcGIS widget is a modification of the stock home button
 
 
 ## Relevant Code
-```
+```javascript
 // Use browser geolocation to obtain user's coords
 if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(lang.hitch(this, success), lang.hitch(this, error));
